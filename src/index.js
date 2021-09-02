@@ -1,15 +1,18 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import App from "./App";
 import store from "./store/index";
+import './i18n';
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  <Suspense fallback="...is loading">
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </Suspense>,
   document.getElementById("root")
 );
 

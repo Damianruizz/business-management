@@ -1,0 +1,61 @@
+.modal {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  inset: 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+  top: 33%;
+  position: absolute;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.modal h2 {
+  text-align: center;
+}
+
+.form > div {
+  display: flex;
+  align-items: center;
+}
+
+.form > div > label {
+  margin-right: 2rem;
+}
+
+.form .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form button.submit,
+.form button.cancel {
+  width: 48%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button.cancel {
+  background-color: #ff5722;
+}
+
+.form button.cancel:hover {
+  background-color: #dc4414;
+}
+
+.form button.submit {
+  background-color: #4CAF50;
+}
+
+.form button.submit:hover {
+  background-color: #45a049;
+}
+

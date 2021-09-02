@@ -1,0 +1,22 @@
+{
+  "bussines": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "business": "Business",
+    "actions": "Actions",
+    "create": "Create Business",
+    "form": {
+      "title": "Create Business",
+      "editTitle": "Edit Business",
+      "button": "Create",
+      "buttonEdit": "Confirm",
+      "nameLabel": "Name",
+      "cancelButton": "Cancel"
+    },
+    "confirm": {
+      "title": "¿Are you sure you want to delete {{name}}?",
+      "button": "Accept",
+      "cancelButton": "Cancel"
+    }
+  }
+}

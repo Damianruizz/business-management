@@ -1,0 +1,40 @@
+.layout {
+  padding: 2rem 4rem;
+}
+
+.table, .language {
+  margin: 0 auto;
+  width: 80%
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+button.create {
+  padding: 1rem 2rem;
+  background-color: #2196f3;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: bolder;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  background-color: #009688;
+}
+
+.language img.flagImage {
+  width: 2rem;
+  height: 100%;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.language .flags {
+  display: flex;
+  align-items: center;
+}
